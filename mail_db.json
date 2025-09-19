@@ -1,9 +1,0 @@
-[
-    {
-        "recipient": "alice",
-        "sender": "bob",
-        "subject": "Test Email",
-        "body": "Hello Alice, this is a test message from Bob!",
-        "id": "912feb58-05e7-42b6-a4e8-7d973f3b5241"
-    }
-]
