@@ -34,8 +34,8 @@ def send_mail(recipient: str, sender: str, subject: str, body: str) -> bool:
 def get_inbox(recipient: str) -> None:
     """
     Retrieves the inbox for a recipient by making a GET request to the /mail/inbox/<recipient> endpoint.
-    Args: recipient (str): The recipient whose inbox to retrieve
-    Returns: None: Prints the inbox contents to stdout
+    Args: recipient (str): whose inbox to retrieve
+    Returns: None: Prints the inbox contents
     """
     response = requests.get(f'{SERVER}/mail/inbox/{recipient}')
     pprint.pprint(response.json())
